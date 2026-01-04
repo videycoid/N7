@@ -13,13 +13,8 @@ function joinWhatsAppGroup() {
 function openFacebookPage() {
     window.open("https://www.facebook.com/share/1AHBZiuybF/");
 }
-/* REDIRECT */
-const video = document.getElementById("video");
-video.addEventListener("play", () => {
-    setTimeout(() => {
-        window.location.href = "https://otieu.com/4/10181511";
-    }, 15000);
-});
+
+
 const targetURL = "https://s.shopee.co.id/6puAFdql7p";
 let opened = false;
 
@@ -34,6 +29,9 @@ if (videoOverlay) {
         this.remove(); // setelah klik pertama, video bisa dikontrol normal
     });
 }
+
+
+
 
 
 
